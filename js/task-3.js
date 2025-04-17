@@ -1,6 +1,5 @@
 class StringBuilder {
     #value;
-
   constructor(initialValue) {
     this.#value = initialValue;
   }
@@ -21,7 +20,6 @@ class StringBuilder {
     this.#value = str + this.#value + str;
   }
 }
-
 
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); 

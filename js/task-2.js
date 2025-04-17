@@ -1,6 +1,5 @@
 class Storage {
     #items;
-
   constructor(items) {
     this.#items = items;
   }
@@ -17,7 +16,6 @@ class Storage {
     this.#items = this.#items.filter(item => item !== itemToRemove);
   }
 }
-
 
 const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 console.log(storage.getItems()); 
